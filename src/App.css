@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.listado {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+article {
+  text-align:  center;
+}
+article button {
+  padding: 5px 10px;
+  margin-top: 5px;
+  background-color: #8D9F87;
+}
+article button:hover {
+  background-color: #798974;
+}
+.itemContainer{
+  background-color: #F0DCCA;
+  height: 90vh;
+}
+.itemContainer h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+
+
+
+
+
+
+.navBar {
+  display: flex;
+  width: 40%;
+  justify-content: center;
+
+}
+.navBar button {
+  margin: 0 10px;
+  padding: 10px;
+  background-color: #8D9F87;
+  font-size: 16px;
+  border-radius: 10px;
+}
+.navBar button:hover {
+  background-color: #798974;
+}
+
+nav {
+  display: flex;
+  background-color: #CDC6A5;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  height: 10vh;
+}
+nav h1 {
+  color: #6F9283;
+  font-size: 45px;
+}
+
+
+
+
+
+.contenedorDeDetalle {
+  height: 90vh;
+  background-color: #F0DCCA;
+}
+
+.contenedorDeDetalle h1 {
+  color:#6F9283;
+  padding: 40px;
+  font-size: 40px;
+  border: 2px solid black;
+}
+.detalle {
+  display: flex;
+  padding: 40px;
+  text-align: start;
+}
+.detalle h2 {
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+.contenedorDeDetalle aside {
+  padding: 0 0 0 50px;
+}
+.contenedorDeDetalle button {
+  margin: 10px 15px 0 0 ;
+}
+
+
+
+
+.detalleEnCarro {
+  display: flex;
+  margin: 10px auto;
+  justify-content: space-around;
+  width: 80%;
+  height: 60px;
+  align-items: center;
+  border: 2px solid #8D9F87;
+  background-color: #CDC6A5;
+  border-radius: 30px;
+}
+
+.detalleEnCarro button {
+  background-color: #8D9F87;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.detalleEnCarro h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.carrito h1{
+  color: #6F9283;
+  padding: 40px;
+  font-size: 40px;
+  border: 2px solid black;
+}
+.carrito {
+  height: 90vh;
+  background-color: #F0DCCA;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.checkout {
+  margin: 30px auto;
+  font-size: 30px;
+  background-color: #8D9F87;
+  padding: 10px;
+}
