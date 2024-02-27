@@ -26,9 +26,11 @@ const Cart = () => {
             <section>
                 <h1>Total: ${total}</h1>
             </section>
-            <button className="checkout">
+            <Link to={'/checkout'} >
+                <button className="checkout">
                 Checkout
-            </button>
+                </button>
+            </Link>
         </div>
     )
 }
